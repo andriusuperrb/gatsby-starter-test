@@ -7,10 +7,10 @@ import Seo from "../components/seo"
 
 const IndexPage = () => (
   <Layout>
-    <Seo title="Home" />
-    <h1>Hi people</h1>
+    <Seo title="The Superrb Gatsby" description="I love Gatsby SEO Features" />
+    <h1>Hello World</h1>
     <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
+    <p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Nulla vitae elit libero, a pharetra augue.</p>
     <StaticImage
       src="../images/gatsby-astronaut.png"
       width={300}
